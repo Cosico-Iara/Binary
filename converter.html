@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Converter - BinaryLab</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><a class="brand" href="dashboard.html">&#9638; BinaryLab</a><nav aria-label="Main navigation"><ul><li><a href="dashboard.html">Dashboard</a></li><li><a href="learn.html">Learn</a></li><li><a aria-current="page" href="converter.html">Converter</a></li><li><a href="practice.html">Practice</a></li><li><a class="cta" href="index.html">Sign Out</a></li></ul></nav></header>
+<main>
+<p class="crumbs"><a href="dashboard.html">Dashboard</a> &rsaquo; Converter</p>
+<section>
+  <h1>Number Converter</h1>
+  <form class="converter">
+    <input type="checkbox" class="bit" id="b7" aria-label="Bit 7, 128">
+    <input type="checkbox" class="bit" id="b6" aria-label="Bit 6, 64">
+    <input type="checkbox" class="bit" id="b5" aria-label="Bit 5, 32">
+    <input type="checkbox" class="bit" id="b4" aria-label="Bit 4, 16">
+    <input type="checkbox" class="bit" id="b3" aria-label="Bit 3, 8">
+    <input type="checkbox" class="bit" id="b2" aria-label="Bit 2, 4">
+    <input type="checkbox" class="bit" id="b1" aria-label="Bit 1, 2">
+    <input type="checkbox" class="bit" id="b0" aria-label="Bit 0, 1">
+    <input type="radio" class="bit" name="t" id="r-dec" checked aria-label="Compute decimal">
+    <input type="radio" class="bit" name="t" id="r-oct" aria-label="Compute octal">
+    <input type="radio" class="bit" name="t" id="r-hex" aria-label="Compute hexadecimal">
+    <div class="view grid">
+      <article class="card wide">
+        <h3><span class="n">1</span> Set the bits <small>click a switch to turn it ON or OFF</small></h3>
+        <div class="switches">
+          <label for="b7" class="sw k7"><small>Bit 7</small><b></b><em>128</em></label>
+          <label for="b6" class="sw k6"><small>Bit 6</small><b></b><em>64</em></label>
+          <label for="b5" class="sw k5"><small>Bit 5</small><b></b><em>32</em></label>
+          <label for="b4" class="sw k4"><small>Bit 4</small><b></b><em>16</em></label>
+          <label for="b3" class="sw k3"><small>Bit 3</small><b></b><em>8</em></label>
+          <label for="b2" class="sw k2"><small>Bit 2</small><b></b><em>4</em></label>
+          <label for="b1" class="sw k1"><small>Bit 1</small><b></b><em>2</em></label>
+          <label for="b0" class="sw k0"><small>Bit 0</small><b></b><em>1</em></label>
+        </div>
+        <button type="reset" class="btn alt">Reset all bits</button>
+      </article>
+      <article class="card">
+        <h3><span class="n">2</span> Choose what to compute</h3>
+        <div class="tabs">
+          <label for="r-dec" class="tab t-dec">Decimal</label>
+          <label for="r-oct" class="tab t-oct">Octal</label>
+          <label for="r-hex" class="tab t-hex">Hexadecimal</label>
+        </div>
+        <p class="label">Binary input</p>
+        <p class="binary"><span class="d k7"></span><span class="d k6"></span><span class="d k5"></span><span class="d k4"></span><span class="d k3"></span><span class="d k2"></span><span class="d k1"></span><span class="d k0"></span></p>
+        <div class="answer">
+          <p class="big res res-dec"><small>Decimal result</small></p>
+          <p class="big res res-oct"><small>Octal result</small></p>
+          <p class="big res res-hex"><small>Hexadecimal result</small></p>
+        </div>
+      </article>
+      <article class="card">
+        <h3><span class="n">3</span> 8-Bit register</h3>
+        <div class="register"><span class="led k7"></span><span class="led k6"></span><span class="led k5"></span><span class="led k4"></span><span class="led k3"></span><span class="led k2"></span><span class="led k1"></span><span class="led k0"></span></div>
+        <p class="note">Each LED is one bit. Green = 1.</p>
+        <p class="note">Example: <code>01100100</code> = 100 = octal 144 = hex 0x64.</p>
+      </article>
+    </div>
+  </form>
+</section>
+</main>
+<footer><div class="fcols"><div><strong>&#9638; BinaryLab</strong><p>Learn and convert number systems with pure HTML and CSS.</p></div><div class="flinks"><a href="dashboard.html">Dashboard</a><a href="learn.html">Learn</a><a href="converter.html">Converter</a><a href="practice.html">Practice</a></div></div><p class="copy">&copy; 2026 BinaryLab &middot; ITEC 101 Final Project</p></footer></body></html>

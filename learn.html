@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Learn - BinaryLab</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><a class="brand" href="dashboard.html">&#9638; BinaryLab</a><nav aria-label="Main navigation"><ul><li><a href="dashboard.html">Dashboard</a></li><li><a aria-current="page" href="learn.html">Learn</a></li><li><a href="converter.html">Converter</a></li><li><a href="practice.html">Practice</a></li><li><a class="cta" href="index.html">Sign Out</a></li></ul></nav></header>
+<main>
+<p class="crumbs"><a href="dashboard.html">Dashboard</a> &rsaquo; Learn</p>
+<section>
+  <h1>Learn Number Systems</h1>
+  <p class="lead">Four short lessons. Read them in order, then try the converter.</p>
+  <div class="grid">
+    <article class="card"><h3><span class="n">1</span> What is binary?</h3><p>Binary is a base-2 system with only two digits, 0 and 1. Each digit is called a bit. Computers store everything, from numbers to photos, as patterns of bits.</p></article>
+    <article class="card"><h3><span class="n">2</span> Place values</h3><p>Every position has a weight that doubles as you move left. To convert to decimal, add the weights of the bits that are 1.</p>
+      <div class="scroll"><table><thead><tr><th>Bit</th><th>7</th><th>6</th><th>5</th><th>4</th><th>3</th><th>2</th><th>1</th><th>0</th></tr></thead><tbody><tr><td>Weight</td><td>128</td><td>64</td><td>32</td><td>16</td><td>8</td><td>4</td><td>2</td><td>1</td></tr></tbody></table></div></article>
+    <article class="card"><h3><span class="n">3</span> Worked example</h3><p><code>01100100</code> has 1s at weights 64, 32 and 4.</p><p class="calc">64 + 32 + 4 = <strong>100</strong></p><p>In octal this is <code>144</code> and in hexadecimal it is <code>0x64</code>.</p></article>
+    <article class="card"><h3><span class="n">4</span> Octal and hex</h3><p>Octal is base 8 (digits 0 to 7). Hexadecimal is base 16 (0 to 9 and A to F). Group bits in threes for octal and in fours for hex.</p><ul><li><code>1111</code> = hex F</li><li><code>111</code> = octal 7</li></ul></article>
+    <article class="card wide"><h3>Reference: 0 to 15</h3><div class="scroll"><table><thead><tr><th>Decimal</th><th>Binary</th><th>Octal</th><th>Hex</th></tr></thead><tbody>
+<tr><td>0</td><td>0000</td><td>0</td><td>0</td></tr>
+<tr><td>1</td><td>0001</td><td>1</td><td>1</td></tr>
+<tr><td>2</td><td>0010</td><td>2</td><td>2</td></tr>
+<tr><td>3</td><td>0011</td><td>3</td><td>3</td></tr>
+<tr><td>4</td><td>0100</td><td>4</td><td>4</td></tr>
+<tr><td>5</td><td>0101</td><td>5</td><td>5</td></tr>
+<tr><td>6</td><td>0110</td><td>6</td><td>6</td></tr>
+<tr><td>7</td><td>0111</td><td>7</td><td>7</td></tr>
+<tr><td>8</td><td>1000</td><td>10</td><td>8</td></tr>
+<tr><td>9</td><td>1001</td><td>11</td><td>9</td></tr>
+<tr><td>10</td><td>1010</td><td>12</td><td>A</td></tr>
+<tr><td>11</td><td>1011</td><td>13</td><td>B</td></tr>
+<tr><td>12</td><td>1100</td><td>14</td><td>C</td></tr>
+<tr><td>13</td><td>1101</td><td>15</td><td>D</td></tr>
+<tr><td>14</td><td>1110</td><td>16</td><td>E</td></tr>
+<tr><td>15</td><td>1111</td><td>17</td><td>F</td></tr>
+</tbody></table></div></article>
+  </div>
+  <p class="actions"><a class="btn" href="converter.html">Try the Converter</a> <a class="btn alt" href="practice.html">Take the Quiz</a></p>
+</section>
+</main>
+<footer><div class="fcols"><div><strong>&#9638; BinaryLab</strong><p>Learn and convert number systems with pure HTML and CSS.</p></div><div class="flinks"><a href="dashboard.html">Dashboard</a><a href="learn.html">Learn</a><a href="converter.html">Converter</a><a href="practice.html">Practice</a></div></div><p class="copy">&copy; 2026 BinaryLab &middot; ITEC 101 Final Project</p></footer></body></html>

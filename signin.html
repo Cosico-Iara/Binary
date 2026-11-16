@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sign In - BinaryLab</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="top"><a class="brand" href="index.html">&#9638; BinaryLab</a><nav aria-label="Main navigation"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a aria-current="page" href="signin.html">Sign In</a></li><li><a class="cta" href="signup.html">Create Account</a></li></ul></nav></header>
+<main>
+<p class="crumbs"><a href="index.html">Home</a> &rsaquo; Sign In</p>
+<section class="authwrap">
+  <div class="steps" aria-label="Progress"><span class="done">1 Create account</span><span class="now">2 Sign in</span><span>3 Start converting</span></div>
+  <form class="card auth" action="dashboard.html" method="get">
+    <h2>Sign In</h2>
+    <label>Email<input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label><label>Password<input type="password" required minlength="8" autocomplete="current-password" placeholder="At least 8 characters"></label>
+    <button type="submit" class="btn">Sign In</button>
+    <p class="note">No account yet? <a href="signup.html">Create Account</a></p>
+    <p class="note">Demo form: input is validated but accounts are not stored (there is no server).</p>
+  </form>
+</section>
+</main>
+<footer><div class="fcols"><div><strong>&#9638; BinaryLab</strong><p>Learn and convert number systems with pure HTML and CSS.</p></div><div class="flinks"><a href="index.html">Home</a><a href="about.html">About</a><a href="signin.html">Sign In</a><a href="signup.html">Create Account</a></div></div><p class="copy">&copy; 2026 BinaryLab &middot; ITEC 101 Final Project</p></footer></body></html>
